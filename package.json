@@ -1,0 +1,38 @@
+{
+  "name": "moderfaker-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for the Moderfaker Discord Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moderfaker-Development/Moderfaker-Bot.git"
+  },
+  "keywords": [
+    "moderfaker",
+    "moderfaker-bot",
+    "discord-bot"
+  ],
+  "author": "Moderfaker Development",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Moderfaker-Development/Moderfaker-Bot/issues"
+  },
+  "homepage": "https://github.com/Moderfaker-Development/Moderfaker-Bot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "bufferutil": "^4.0.3",
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "github:discordjs/Commando",
+    "dotenv": "^8.2.0",
+    "erlpack": "github:discord/erlpack",
+    "libsodium-wrappers": "^0.7.8",
+    "sqlite": "^4.0.19",
+    "sqlite3": "^5.0.0",
+    "utf-8-validate": "^5.0.4",
+    "zlib-sync": "^0.1.7"
+  }
+}
